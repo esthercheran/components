@@ -1,11 +1,14 @@
 /**
  * Do not edit directly
+
  * Generated on Mon, 15 Nov 2021 11:08:00 GMT
+
  */
 
 :root {
   --text-field-hover-border-style: solid;
   --text-area-hover-border-style: solid;
+
   --switch-handle-border-radius: 100px;
   --switch-handle-width: 24px;
   --switch-handle-height: 24px;
@@ -14,6 +17,7 @@
   --switch-track-border-width: 1px;
   --switch-track-border-radius: 16px;
   --switch-track-height: 24px;
+
   --space-800: 64px;
   --space-400: 32px;
   --space-350: 28px;
@@ -104,6 +108,7 @@
   --font-family-mono: IBM Plex Mono;
   --font-family-sans-serif: IBM Plex Sans;
   --font-family-serif: IBM Plex Serif;
+
   --core-color-neutrals-transparent: hsla(255,0%,100%,1%);
   --core-color-neutrals-white: #ffffff;
   --core-color-neutrals-black: #000000;
@@ -156,12 +161,15 @@
   --core-color-red-30: #FFA7A6;
   --core-color-red-20: #FFD9D9;
   --core-color-red-10: #FEF6F7;
+
   --border-width-3: 4px;
   --border-width-2: 2px;
   --border-width-1: 1px;
   --border-width-0: 0px;
   --border-radius-7: 32px;
+
   --border-radius-6: 16px;
+
   --border-radius-5: 8px;
   --border-radius-4: 4px;
   --border-radius-3: 3px;
@@ -188,6 +196,7 @@
   --text-field-small-padding-bottom: var(--space-75);
   --text-field-small-padding-top: var(--space-75);
   --text-field-small-font-size: var(--font-size-2);
+
   --text-field-hover-border-width: var(--border-width-1);
   --text-field-error-border-width: var(--border-width-1);
   --text-field-focus-outline-offset: var(--space-25);
@@ -195,6 +204,7 @@
   --text-field-border-radius: var(--border-radius-4);
   --text-field-border-width: var(--border-width-1);
   --text-field-border-color: var(--core-color-grey-60);
+
   --text-area-extra-large-padding-right: var(--space-125);
   --text-area-extra-large-padding-left: var(--space-125);
   --text-area-extra-large-padding-bottom: var(--space-125);
@@ -216,12 +226,14 @@
   --text-area-small-padding-top: var(--space-75);
   --text-area-small-font-size: var(--font-size-2);
   --text-area-hover-border-width: var(--border-width-1);
+
   --text-area-error-border-width: var(--border-width-1);
   --text-area-focus-outline-offset: var(--space-25);
   --text-area-focus-outline-width: var(--border-width-2);
   --text-area-border-radius: var(--border-radius-4);
   --text-area-border-width: var(--border-width-1);
   --text-area-border-color: var(--core-color-grey-60);
+
   --tag-extra-large-padding-left: var(--space-200);
   --tag-extra-large-padding-bottom: var(--space-100);
   --tag-extra-large-padding-right: var(--space-200);
@@ -242,6 +254,7 @@
   --tag-small-padding-right: var(--space-150);
   --tag-small-padding-top: var(--space-75);
   --tag-small-text-size: var(--font-size-2);
+
   --tag-borderless-neutral-background-color: var(--core-color-neutrals-transparent);
   --tag-borderless-neutral-border-color: var(--core-color-neutrals-transparent);
   --tag-borderless-error-background-color: var(--core-color-neutrals-transparent);
@@ -384,10 +397,12 @@
   --radio-button-selected-hover-background-color: var(--core-color-neutrals-white);
   --radio-button-selected-background-color: var(--core-color-neutrals-white);
   --radio-button-unselected-background-color: var(--core-color-neutrals-white);
+
   --help-text-extra-large-text-size: var(--font-size-4);
   --help-text-large-text-size: var(--font-size-3);
   --help-text-medium-text-size: var(--font-size-2);
   --help-text-small-text-size: var(--font-size-2);
+
   --help-text-font-family: var(--font-family-sans-serif);
   --heading-line-height: var(--line-height-1);
   --heading-font-weight-bold: var(--font-weight-bold);
@@ -415,15 +430,18 @@
   --detail-font-family-mono: var(--font-family-mono);
   --detail-font-family-sans-serif: var(--font-family-sans-serif);
   --detail-font-family-serif: var(--font-family-serif);
+
   --code-xs-text-size: var(--font-size-2);
   --code-s-text-size: var(--font-size-3);
   --code-m-text-size: var(--font-size-4);
   --code-l-text-size: var(--font-size-5);
   --code-xl-text-size: var(--font-size-6);
   --code-font-family: var(--font-family-mono);
+
   --checkbox-unselected-hover-checkmark-color: var(--core-color-neutrals-transparent);
   --checkbox-unselected-checkmark-color: var(--core-color-neutrals-transparent);
   --checkbox-label-font-family: var(--font-family-sans-serif);
+
   --button-extra-large-icon-size: var(--size-100);
   --button-extra-large-padding-bottom: var(--space-250);
   --button-extra-large-padding-top: var(--space-250);
@@ -448,6 +466,7 @@
   --button-small-padding-right: var(--space-200);
   --button-small-padding-left: var(--space-200);
   --button-small-text-size: var(--font-size-3);
+
   --button-disabled-icon-color: var(--core-color-grey-40);
   --button-disabled-text-color: var(--core-color-grey-40);
   --button-negative-quiet-active-background-color: var(--core-color-grey-30);
@@ -497,6 +516,7 @@
   --button-primary-default-text-color: var(--core-color-grey-60);
   --button-primary-default-background-color: var(--core-color-neutrals-transparent);
   --button-quiet-hover-background-color: var(--core-color-grey-20);
+
   --button-font-weight: var(--font-weight-regular);
   --button-font-family: var(--font-family-sans-serif);
   --button-border-width: var(--border-width-1);
@@ -504,6 +524,8 @@
   --body-emphasized: var(--font-style-italic);
   --body-strong: var(--font-weight-bold);
   --body-line-height: var(--line-height-2);
+
+
   --body-font-size-xs: var(--font-size-2);
   --body-font-size-s: var(--font-size-3);
   --body-font-size-m: var(--font-size-4);
@@ -641,4 +663,5 @@
   --button-focus-ring-color: var(--semantic-color-controls-info-default-border-color);
   --body-font-color-on-background: var(--semantic-color-text-body-on-background);
   --body-font-color-default: var(--semantic-color-text-body-default);
+
 }
